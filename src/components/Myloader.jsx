@@ -10,13 +10,6 @@ export default function Myloader() {
             setloader(false);
         }, 2000);
     }, []);
-    {
-        if (loder === true) {
-            document.body.style.overflow = "hidden";
-        } else {
-            document.body.style.overflow = "initial";
-        }
-    }
     return (
         <>
             <div>
