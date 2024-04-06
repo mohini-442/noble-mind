@@ -67,37 +67,37 @@ export default function Contactus() {
                 <div className="flex flex-row flex-wrap">
                     <div className="lg:w-1/2 mx-auto lg:mx-0 px-3" data-aos="fade-right">
                         <h2 className=" font-Outfit font-semibold text-[32px] md:text-[48px] text-center lg:text-start leading-[37px]">Contact <span className="font-light"> Us </span></h2>
-                        <p className="text-[14px] md:text-[16px] font-Exo 2 font-normal text-[#5A594D] max-w-[409px]  text-center lg:text-start mx-auto lg:mx-0 md:pt-4">Feel free to contact us any time . We will get back to you as soon as we can! </p>
+                        <p className="text-[14px] md:text-[16px] font-Exo font-normal text-[#5A594D] max-w-[409px]  text-center lg:text-start mx-auto lg:mx-0 md:pt-4">Feel free to contact us any time . We will get back to you as soon as we can! </p>
                         <form onSubmit={clg}>
                             <div className="sm:flex gap-2 w-full">
                                 <div className="flex flex-col pt-3">
-                                    <label htmlFor="Name" className="font-Exo 2 font-normal text-[16px] text-[#5A594D]">Name</label>
+                                    <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Name</label>
                                     {/* <input type="text" className="ff-exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 w-full sm:w-[233px]  outline-none h-[48px] border border-[#13120033]" /> */}
                                     <input
                                         onChange={inputCon}
                                         name="name"
                                         value={fromdata.name}
                                         type="name"
-                                        className="font-Exo 2 mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 w-full sm:w-[233px]  outline-none h-[48px] border border-[#13120033]"
+                                        className="font-Exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 w-full sm:w-[233px]  outline-none h-[48px] border border-[#13120033]"
                                     />
                                     {Fromerror.name && (
-                                        <p className=" font-Exo 2 font-normal text-red-800 ">
+                                        <p className=" font-Exo font-normal text-red-800 ">
                                             {Fromerror.name}
                                         </p>
                                     )}
                                 </div>
                                 <div className="sm:flex flex-col pt-3">
-                                    <label htmlFor="Name" className="font-Exo 2 font-normal text-[16px] text-[#5A594D]">Last Name</label>
+                                    <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Last Name</label>
                                     {/* <input type="text" className="ff-exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 outline-none w-full sm:w-[233px] h-[48px] border border-[#13120033]" /> */}
                                     <input
                                         onChange={inputCon}
                                         name="lastname"
                                         value={fromdata.lastname}
                                         type="name"
-                                        className="font-Exo 2 mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 outline-none w-full sm:w-[233px] h-[48px] border border-[#13120033]"
+                                        className="font-Exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 outline-none w-full sm:w-[233px] h-[48px] border border-[#13120033]"
                                     />
                                     {Fromerror.lastname && (
-                                        <p className=" font-Exo 2 font-normal text-red-800">
+                                        <p className=" font-Exo font-normal text-red-800">
                                             {Fromerror.lastname}
                                         </p>
                                     )}
@@ -111,26 +111,26 @@ export default function Contactus() {
                                     name="email"
                                     value={fromdata.email}
                                     type="email"
-                                    className="font-Exo 2 mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2  w-full sm:w-[475px] outline-none h-[48px] border border-[#13120033]"
+                                    className="font-Exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2  w-full sm:w-[475px] outline-none h-[48px] border border-[#13120033]"
                                 />
                                 {Fromerror.email && (
-                                    <p className=" font-Exo 2 font-normal text-red-800">
+                                    <p className=" font-Exo font-normal text-red-800">
                                         {Fromerror.email}
                                     </p>
                                 )}
                             </div>
                             <div className="flex flex-col pt-3">
-                                <label htmlFor="Name" className="font-Exo 2 font-normal text-[16px] text-[#5A594D]">Message</label>
+                                <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Message</label>
                                 {/* <textarea name="" id="" cols="30" rows="10" className=" ff-exo mt-1 max-lg:h-[94px] h-[135px] p-2 rounded-[8px] font-normal text-[16px] resize-none text-[#5A594D] w-full sm:w-[475px] outline-none border border-[#13120033]" ></textarea> */}
                                 <textarea
                                     onChange={inputCon}
                                     name="message"
                                     value={fromdata.message}
                                     type="message"
-                                    className="font-Exo 2 mt-1 max-lg:h-[94px] h-[135px] p-2 rounded-[8px] font-normal text-[16px] resize-none text-[#5A594D] w-full sm:w-[475px] outline-none border border-[#13120033]"
+                                    className="font-Exo mt-1 max-lg:h-[94px] h-[135px] p-2 rounded-[8px] font-normal text-[16px] resize-none text-[#5A594D] w-full sm:w-[475px] outline-none border border-[#13120033]"
                                 />
                                 {Fromerror.message && (
-                                    <p className="font-Exo 2 font-normal text-red-800">
+                                    <p className="font-Exo font-normal text-red-800">
                                         {Fromerror.message}
                                     </p>
                                 )}

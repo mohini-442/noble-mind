@@ -73,10 +73,9 @@
   color: #A854E9 !important;
 }
 
-.slick-current .slider_active {
-  border-bottom: 5px solid #A854E9;
+.slick-current+.slick-active .slider_active {
+  border-bottom: 5px solid #A854E9 !important;
 }
-
 .zoom-in-out-box {
   animation: zoom-in-zoom-out 1s ease infinite;
 }

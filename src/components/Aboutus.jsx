@@ -31,10 +31,10 @@ export default function Aboutus() {
                                     </defs>
                                 </svg>
                                 </span>
-                                <p className="font-normal text-[16px] font-Exo 2 text-[#131200]" data-aos="fade-right">About Us</p>
+                                <p className="font-normal text-[16px] font-Exo text-[#131200]" data-aos="fade-right">About Us</p>
                             </div>
                             <h2 className=" font-Outfit font-light text-[32px] md:text-[48px] leading-[36px] md:leading-[58px] pt-2 text-center lg:text-start" data-aos="fade-right">Pioneering Vision & Mission- <span className="font-semibold">Driven Sectoral Innovation </span></h2>
-                            <p className=" font-Exo 2 font-normal text-[14px] md:text-[16px] text-[#4D4D4D] leading-[24px] pt-2 md:pt-4 lg:max-w-[471px] text-center lg:text-start" data-aos="fade-right">Imagine a future in Saudi Arabia influenced by the potential of Al, with Noble Mind at the forefront of this transformation. Healthcare stands to gain with the promise of enhanced data precision. In education, there&#39;s the potential for individualized learning experiences. Finance could witness seamless transactions, and entertainment may revel in customized experiences. Through Al&#39;s promise, transportation could innovate and cities might adapt smarter infrastructures. In every domain, the vision of Noble Mind hints at a brighter, more efficient nation.</p>
+                            <p className=" font-Exo font-normal text-[14px] md:text-[16px] text-[#4D4D4D] leading-[24px] pt-2 md:pt-4 lg:max-w-[471px] text-center lg:text-start" data-aos="fade-right">Imagine a future in Saudi Arabia influenced by the potential of Al, with Noble Mind at the forefront of this transformation. Healthcare stands to gain with the promise of enhanced data precision. In education, there&#39;s the potential for individualized learning experiences. Finance could witness seamless transactions, and entertainment may revel in customized experiences. Through Al&#39;s promise, transportation could innovate and cities might adapt smarter infrastructures. In every domain, the vision of Noble Mind hints at a brighter, more efficient nation.</p>
                             <Button name='!rounded-[4px] !mt-2 !lg:mt-8' btn='Read More' />
                         </div>
                     </div>

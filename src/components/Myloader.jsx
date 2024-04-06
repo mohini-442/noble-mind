@@ -1,15 +1,30 @@
 "use client"
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import logo from '../../public/assets/images/footerlogo.png';
 import Image from "next/image";
 
 export default function Myloader() {
     const [loder, setloader] = useState(true);
+    const bodyRef = useRef(document.body);
+
     useEffect(() => {
         setTimeout(() => {
             setloader(false);
         }, 2000);
     }, []);
+    useEffect(() => {
+        if (loder) {
+
+            bodyRef.current.style.overflow = 'hidden';
+        } else {
+
+            bodyRef.current.style.overflow = 'auto';
+        }
+
+        return () => {
+            bodyRef.current.style.overflow = 'auto';
+        };
+    }, [loder]);
     return (
         <>
             <div>
