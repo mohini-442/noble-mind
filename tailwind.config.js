@@ -16,7 +16,7 @@ module.exports = {
         'newsletter': "url('/assets/images/NWSLATTER.png')",
       },
       fontFamily: {
-        'Exo 2': ' "Exo", sans-serif',
+        'Exo': ' "Exo 2", sans-serif',
         'Outfit': '"Outfit", sans-serif',
         'Montserrat': '"Montserrat", sans-serif',
 
