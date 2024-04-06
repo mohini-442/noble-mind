@@ -139,7 +139,7 @@ export default function Contactus() {
                         </form>
                   
                     </div>
-                    <div className="lg:w-1/2 px-3 sm:mx-auto lg:mx-0 pt-10 lg:pt-0 mx-4" data-aos="fade-left">
+                    <div className="lg:w-1/2 px-3 sm:mx-auto pt-10 lg:pt-0 " data-aos="fade-left">
                         <Image src={contactus} alt="contactus" height={692} width={598} />
                     </div>
                 </div>
