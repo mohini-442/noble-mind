@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <div className="bg-white overflow-hidden">
-        <div className=" bg-my_bg_image bg-cover bg-no-repeat bg-center md:bg-Size min-h-[60vh] lg:min-h-screen flex flex-col">
+        <div className=" bg-my_bg_image bg-cover bg-no-repeat bg-center bg-Size min-h-[60vh] lg:min-h-screen flex flex-col">
           <Mynav />
           <Headersec />
         </div>

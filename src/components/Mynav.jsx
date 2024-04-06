@@ -21,7 +21,7 @@ export default function Mynav() {
                                 className={`flex items-center gap-6 mobileView ${show ? "right-[-100%]" : "right-0"}`} >
                                 <li onClick={nav}>
                                     <a
-                                        className="hover:after:w-[100%] after:w-0 after:absolute  after:left-0 after:bg-[#000000] after:h-[2px] ff-exo relative after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] text-[16px] font-normal leading-normal no-underline"
+                                        className="hover:after:w-[100%] after:w-0 after:absolute  after:left-0 after:bg-[#000000] after:h-[2px] font-Exo relative after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] text-[16px] font-normal leading-normal no-underline"
                                         href="#home"
                                     >
                                         Home
@@ -29,7 +29,7 @@ export default function Mynav() {
                                 </li>
                                 <li onClick={nav}>
                                     <a
-                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] ff-exo text-[16px] font-normal leading-normal no-underline"
+                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] font-Exo text-[16px] font-normal leading-normal no-underline"
                                         href="#aboutus"
                                     >
                                         About Us
@@ -37,7 +37,7 @@ export default function Mynav() {
                                 </li>
                                 <li onClick={nav}>
                                     <a
-                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px] font-chewy relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] ff-exo text-[16px] font-normal leading-normal no-underline"
+                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px]  relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] font-Exo 2 text-[16px] font-normal leading-normal no-underline"
                                         href="#aboutus"
                                     >
                                         Services
@@ -45,7 +45,7 @@ export default function Mynav() {
                                 </li>
                                 <li onClick={nav}>
                                     <a
-                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px] font-chewy relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] ff-exo text-[16px] font-normal leading-normal no-underline"
+                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px] relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] font-Exo 2 text-[16px] font-normal leading-normal no-underline"
                                         href="#whychooseus"
                                     >
                                         Why Choose Us
@@ -53,7 +53,7 @@ export default function Mynav() {
                                 </li>
                                 <li onClick={nav}>
                                     <a
-                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px] font-chewy relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] ff-exo text-[16px] font-normal leading-normal no-underline"
+                                        className="hover:after:w-[100%] after:w-0 after:absolute after:bg-[#000000] after:h-[2px]  relative after:left-[0] after:bottom-[-2px] after:rounded-[10px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] font-Exo 2 text-[16px] font-normal leading-normal no-underline"
                                         href="#blog"
                                     >
                                         Blogs
@@ -61,7 +61,7 @@ export default function Mynav() {
                                 </li>
                                 <li onClick={nav}>
                                     <a
-                                        className="hover:after:w-[100%] after:w-0 after:absolute  after:bg-[#000000] after:h-[2px] font-chewy relative after:left-[0] after:bottom-[-2px] after:rounded-[19px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] ff-exo text-[16px] font-normal leading-normal no-underline"
+                                        className="hover:after:w-[100%] after:w-0 after:absolute  after:bg-[#000000] after:h-[2px]  relative after:left-[0] after:bottom-[-2px] after:rounded-[19px] after:transition-all after:duration-300 after:ease-linear text-[#5A594D] hover:text-[#131200] font-Exo 2 text-[16px] font-normal leading-normal no-underline"
                                         href="#faq"
                                     >
                                         FAQ

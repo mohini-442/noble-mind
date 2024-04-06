@@ -66,14 +66,13 @@ export default function Whychooseus() {
     };
     const cards = teamcard.map((teamcard, i) => (
         <div key={i} className=' d-flex justify-content-center align-items-center md:mt-4'>
-            <div className={` rounded-[12px] my-2 md:my-5 mx-3 h-[208px] p-[18px] duration-[0.5s]  border border-[#A854E933] slider_active`}>
+            <div className={` rounded-[12px] my-2 md:my-4 mx-3 h-[208px] p-[18px] duration-[0.5s]  border border-[#A854E933] slider_active`}>
                 <div className=''>
                     <div className='border-[5px] flex items-center justify-center border-[#A854E93D] rounded-[50px] w-[36px] h-[36px] '>
-                        <h2 className="gradient-2 ff-outfit font-extrabold">{teamcard.head}</h2>
+                        <h2 className="gradient-2 font-Outfit font-extrabold">{teamcard.head}</h2>
                     </div>
-                    <p className="ff-outfit text-[20px] font-normal pt-2">{teamcard.heading}</p>
-
-                    <p className="ff-exo font-normal text-[16px] text-[#4D4D4D]">{teamcard.paragraph}</p>
+                    <p className="font-Outfit text-[20px] font-normal pt-2">{teamcard.heading}</p>
+                    <p className="font-Exo 2 font-normal text-[16px] text-[#4D4D4D]">{teamcard.paragraph}</p>
                 </div>
             </div>
         </div>
@@ -100,9 +99,9 @@ export default function Whychooseus() {
                             </defs>
                         </svg>
                         </span>
-                        <p className="font-normal text-[16px] ff-exo text-[#131200]" data-aos="fade-left">Why Choose Us</p>
+                        <p className="font-normal text-[16px] font-Exo 2 text-[#131200]" data-aos="fade-left">Why Choose Us</p>
                     </div>
-                    <h2 className="ff-outfit font-light max-w-[552px] mx-auto text-[32px] md:text-[48px] leading-[36px] md:leading-[58px] pt-2 text-center" data-aos="fade-left"> Driving Innovation &  <span className="font-semibold">Transforming Industries</span></h2>
+                    <h2 className=" font-Outfit font-light max-w-[552px] mx-auto text-[32px] md:text-[48px] leading-[36px] md:leading-[58px] pt-2 text-center" data-aos="fade-left"> Driving Innovation &  <span className="font-semibold">Transforming Industries</span></h2>
                     <div className=' py-lg-5 py-2' data-aos="fade-left">
                         <Slider {...settings}> {cards}</Slider>
                     </div>

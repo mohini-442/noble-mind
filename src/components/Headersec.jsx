@@ -24,10 +24,10 @@ export default function Headersec() {
                                     </defs>
                                 </svg>
                                 </span>
-                                <p className="font-normal text-[16px] ff-exo text-[#131200]" >AI With Noble Mind</p>
+                                <p className="font-normal text-[16px] font-Exo 2 text-[#131200]" >AI With Noble Mind</p>
                             </div>
-                            <h2 className="ff-outfit font-light text-[34px] md:text-[64px] leading-[44px] md:leading-[66px] text-black pt-3" data-aos="zoom-y-out" data-aos-delay="2500">Inspiring Innovation, Elevating Solutions – <span className="ff-outfit text-[30px] md:text-[48px] font-semibold leading-[57px]"> Noble Mind" </span></h2>
-                            <p className="ff-exo font-normal text-[14px] md:text-[18px] text-[#4D4D4D] max-w-[619px] leading-[24px] md:pt-3" data-aos="zoom-y-out" data-aos-delay="2500">At Noble Mind is a forward-thinking AI specialised company dedicated to reshaping the future of how we live, work, and learn. Our mission is to create ground-breaking AI solutions for Healthcare, Education, and beyond, aligning with Saudi Arabia’s Vision 2030.”</p>
+                            <h2 className=" font-Outfit font-light text-[34px] md:text-[64px] leading-[44px] md:leading-[66px] text-black pt-3" data-aos="zoom-y-out" data-aos-delay="2500">Inspiring Innovation, Elevating Solutions – <span className=" font-Outfit text-[30px] md:text-[48px] font-semibold leading-[57px]"> Noble Mind &#34;  </span></h2>
+                            <p className="font-Exo 2 font-normal text-[14px] md:text-[18px] text-[#4D4D4D] max-w-[619px] leading-[24px] md:pt-3" data-aos="zoom-y-out" data-aos-delay="2500">At Noble Mind is a forward-thinking AI specialised company dedicated to reshaping the future of how we live, work, and learn. Our mission is to create ground-breaking AI solutions for Healthcare, Education, and beyond, aligning with Saudi Arabia’s Vision 2030.”</p>
                         </div>
                     </div>
 
