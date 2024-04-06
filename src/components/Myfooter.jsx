@@ -18,7 +18,7 @@ export default function Myfooter() {
                     <div className="max-w-[1140px] mx-auto px-3 pt-28 md:pt-36 pb-16">
                         <div className="flex flex-row flex-wrap">
                             <div className="md:w-8/12 w-full">
-                                <a href=""><Image src={logo} className="max-lg:w-[65%]" alt="logo" width={241.94} height={42} /></a>
+                                <a href=""><Image src={logo} className="max-lg:w-[50%]" alt="logo" width={241.94} height={42} /></a>
                                 <p className="font-normal text-[14px] md:text-[16px] font-Exo 2 text-white pt-7">Follow Us</p>
                                 <div className="flex items-center gap-2 pt-2">
                                     <span className=" hover:translate-y-[-6%] duration-[0.5s]">
