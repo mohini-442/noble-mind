@@ -2,7 +2,7 @@
 export default function Headersec() {
     return (
         <>
-            <div id="home" className="flex-grow flex justify-center items-center py-24">
+            <div id="home" className="flex-grow relative z-10 flex justify-center items-center py-24">
                 <div className="max-w-[1140px] xxl:max-w-[1440px] mx-auto px-3">
                     <div className="flex flex-wrap flex-row">
                         <div className="sm:w-7/12 flex justify-center flex-col">

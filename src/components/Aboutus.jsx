@@ -35,13 +35,13 @@ export default function Aboutus() {
                             </div>
                             <h2 className=" font-Outfit font-light text-[32px] md:text-[48px] leading-[36px] md:leading-[58px] pt-2 text-center lg:text-start" data-aos="fade-right">Pioneering Vision & Mission- <span className="font-semibold">Driven Sectoral Innovation </span></h2>
                             <p className=" font-Exo font-normal text-[14px] md:text-[16px] text-[#4D4D4D] leading-[24px] pt-2 md:pt-4 lg:max-w-[471px] text-center lg:text-start" data-aos="fade-right">Imagine a future in Saudi Arabia influenced by the potential of Al, with Noble Mind at the forefront of this transformation. Healthcare stands to gain with the promise of enhanced data precision. In education, there&#39;s the potential for individualized learning experiences. Finance could witness seamless transactions, and entertainment may revel in customized experiences. Through Al&#39;s promise, transportation could innovate and cities might adapt smarter infrastructures. In every domain, the vision of Noble Mind hints at a brighter, more efficient nation.</p>
-                            <Button name='!rounded-[4px] !mt-2 !lg:mt-8' btn='Read More' />
+                            <Button name='!rounded-[4px] !mt-2 lg:!mt-8' btn='Read More' />
                         </div>
                     </div>
 
                 </div>
-                <Image src={ellipse} alt="ellipse" width={70} height={95} className="absolute bottom-[18%] right-[8%] z-[-1] hidden md:block " />
-                <Image src={ellipse} alt="ellipse" width={70} height={95} className="absolute top-[-6%] left-[12%] z-[-1] hidden md:block " />
+                <Image src={ellipse} alt="ellipse" width={70} height={95} className="absolute bottom-[18%] right-[2%] z-[-1] hidden md:block " />
+                <Image src={ellipse} alt="ellipse" width={70} height={95} className="absolute top-[-2%] left-[2%] z-[-1] hidden md:block " />
             </div>
         </>
     )

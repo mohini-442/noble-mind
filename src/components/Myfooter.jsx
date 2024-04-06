@@ -10,7 +10,7 @@ export default function Myfooter() {
                     <h2 className=" font-Outfit font-light text-[32px] md:text-[48px] text-[#FDFDFF] text-center leading-[30px]">Subscribe to our <span className="font-semibold"> Newsletter!</span></h2>
                     <p className="font-Exo 2 font-normal text-[14px] md:text-[16px] text-[#FDFDFF] pt-2 text-center">Be the first to get exclusive offers and the latest news.</p>
                     <form className="w-[314px] sm:w-[448px] p-2 sm:p-[10px_10px_10px_24px] bg-[#FFFFFF0D] border border-[#FDFDFF33] flex justify-between mt-4 md:mt-9 rounded-[6px]">
-                        <input type="text" placeholder="Enter your email" className=" !w-[140px] placeholder:text-[#FDFDFF] text-[#FDFDFF] font-Outfit text-[14px] md:text-[16px] font-semibold bg-transparent border-none outline-none" />
+                        <input type="text" placeholder="Enter your email" className=" !w-[140px] sm:!w-full placeholder:text-[#FDFDFF] text-[#FDFDFF] font-Outfit text-[14px] md:text-[16px] font-semibold bg-transparent border-none outline-none" />
                         <button className="sm:text-[16px] text-[14px] font-semibold font-Outfit hover:bg-white hover:text-[#9257D8] duration-[0.5s] text-[#FDFDFF] p-[4px_8px] sm:p-[12px_22px] border rounded-[4px] border-[#FDFDFF]">Subscribe</button>
                     </form>
                 </div>
@@ -72,7 +72,7 @@ export default function Myfooter() {
                                             <li className="pt-3"><a href="#contactus" className="font-normal font-Outfit text-[16px] text-[#B7B7B4] hover:text-white duration-300 text-nowrap">Term & Conduction</a></li>
                                             <li className="pt-3"><a href="#blog" className="font-normal font-Outfit text-[16px] text-[#B7B7B4]  hover:text-white duration-300">Privacy Policy</a></li>
                                             <li className="pt-3"><a href="#contactus" className="font-normal font-Outfit text-[16px] text-[#B7B7B4]  hover:text-white duration-300">Contact</a></li>
-                                            <li className="pt-3"><a href="#home" className="font-normal font-Outfit text-[16px] text-[#B7B7B4] hover:text-white duration-300">(629) 555-0129</a></li>
+                                            <li className="pt-3"><a href="tel:+6494461709" className="font-normal font-Outfit text-[16px] text-[#B7B7B4] hover:text-white duration-300">(629) 555-0129</a></li>
                                         </ul>
                                     </div>
                                 </div>

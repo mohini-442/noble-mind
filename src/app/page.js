@@ -22,13 +22,13 @@ export default function Home() {
     });
 
     return () => {
-      AOS.refresh();  
+      AOS.refresh();
     }
   }, []);
   return (
     <>
       <div className="bg-white overflow-hidden">
-        <div className=" bg-my_bg_image bg-cover bg-no-repeat bg-center bg-Size min-h-[60vh] lg:min-h-screen flex flex-col">
+        <div className=" bg-my_bg_image after:w-full lg:after:w-0 after:h-full   after:bg-white after:opacity-50 after:absolute relative bg-cover bg-no-repeat bg-center bg-Size min-h-[60vh] lg:min-h-screen flex flex-col">
           <Mynav />
           <Headersec />
         </div>
