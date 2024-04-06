@@ -5,7 +5,7 @@ export default function Headersec() {
             <div id="home" className="flex-grow relative z-10 flex justify-center items-center py-24">
                 <div className="max-w-[1140px] xxl:max-w-[1440px] mx-auto px-3">
                     <div className="flex flex-wrap flex-row">
-                        <div className="sm:w-7/12 flex justify-center flex-col">
+                        <div className="lg:w-7/12 flex justify-center flex-col">
                             <div className="flex items-center gap-1" data-aos="zoom-y-out" data-aos-delay="2500">
                                 <span><svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13.9187 6.87573L11.1603 14.2314L3.80469 16.9897L11.1603 19.7481L13.9187 27.1037L16.677 19.7481L24.0327 16.9897L16.677 14.2314L13.9187 6.87573Z" fill="#00EAEC" />
