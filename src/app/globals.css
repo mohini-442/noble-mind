@@ -36,9 +36,7 @@
   }
 }
 
-.bg-Size {
-  background-size: 100% 100%;
-}
+
 
 .slick-dots li {
   margin: 0 !important;
@@ -76,6 +74,7 @@
 .slick-current+.slick-active .slider_active {
   border-bottom: 5px solid #A854E9 !important;
 }
+
 .zoom-in-out-box {
   animation: zoom-in-zoom-out 1s ease infinite;
 }
@@ -91,5 +90,11 @@
 
   100% {
     transform: scale(1, 1);
+  }
+}
+
+@media (min-width:992px) {
+  .bg-Size {
+    background-size: 100% 100%;
   }
 }
