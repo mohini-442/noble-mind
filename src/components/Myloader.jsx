@@ -5,7 +5,6 @@ import Image from "next/image";
 
 export default function Myloader() {
     const [loder, setloader] = useState(true);
-    const bodyRef = useRef(document.body);
 
     useEffect(() => {
         setTimeout(() => {
