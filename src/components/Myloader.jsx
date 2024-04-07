@@ -12,19 +12,19 @@ export default function Myloader() {
             setloader(false);
         }, 2000);
     }, []);
-    useEffect(() => {
-        if (loder) {
+    // useEffect(() => {
+    //     if (loder) {
 
-            bodyRef.current.style.overflow = 'hidden';
-        } else {
+    //         bodyRef.current.style.overflow = 'hidden';
+    //     } else {
 
-            bodyRef.current.style.overflow = 'auto';
-        }
+    //         bodyRef.current.style.overflow = 'auto';
+    //     }
 
-        return () => {
-            bodyRef.current.style.overflow = 'auto';
-        };
-    }, [loder]);
+    //     return () => {
+    //         bodyRef.current.style.overflow = 'auto';
+    //     };
+    // }, [loder]);
     return (
         <>
             <div>
