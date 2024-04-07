@@ -37,7 +37,7 @@ export default function Home() {
         <Contactus />
         <Myfaq />
         <Myfooter />
-        <Myloader />
+        {/* <Myloader /> */}
         <Backtotop />
       </div>
     </>
