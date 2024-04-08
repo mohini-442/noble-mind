@@ -6,31 +6,21 @@ import Image from "next/image";
 export default function Myloader() {
     const [loder, setloader] = useState(true);
 
+
     useEffect(() => {
         setTimeout(() => {
             setloader(false);
+            document.body.classList.remove("overflow-hidden")
+
         }, 2000);
     }, []);
-    // useEffect(() => {
-    //     if (loder) {
-
-    //         bodyRef.current.style.overflow = 'hidden';
-    //     } else {
-
-    //         bodyRef.current.style.overflow = 'auto';
-    //     }
-
-    //     return () => {
-    //         bodyRef.current.style.overflow = 'auto';
-    //     };
-    // }, [loder]);
     return (
         <>
             <div>
                 {loder ? (
                     <section
                         style={{ zIndex: "999999999" }}
-                        className=" gradient-1 top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center"
+                        className=" gradient-1 top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center overflow-hidden"
                     >
                         <div className="preloader flex flex-col justify-center items-center h-screen">
                             <div className="flex gap-3 items-center zoom-in-out-box cursor-pointer ">
