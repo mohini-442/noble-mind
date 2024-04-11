@@ -38,7 +38,7 @@ export default function Myfooter() {
                                         </a>
                                     </span>
                                     <span className=" hover:translate-y-[-6%] duration-[0.5s]">
-                                        <a href="https://www.linkedin.com/pulse/road-map-front-end-developer-chandrashekhar-m" aria-label="instagram" aria-hidden="true" target="_blank" className="group ">
+                                        <a href="https://www.linkedin.com/pulse/road-map-front-end-developer-chandrashekhar-m" aria-label="instagram" target="_blank" className="group ">
                                             <Linkedin/>
                                         </a>
                                     </span>
