@@ -68,15 +68,17 @@ export default function Contactus() {
                     <div className="lg:w-1/2 mx-auto lg:mx-0 px-3" data-aos="fade-right">
                         <h2 className=" font-Outfit font-semibold text-[32px] md:text-[48px] text-center lg:text-start leading-[37px]">Contact <span className="font-light"> Us </span></h2>
                         <p className="text-[14px] md:text-[16px] font-Exo font-normal text-[#5A594D] max-w-[409px]  text-center lg:text-start mx-auto lg:mx-0 md:pt-4">Feel free to contact us any time . We will get back to you as soon as we can! </p>
-                        <form onSubmit={clg}>
+                        <form onSubmit={clg} id="form">
                             <div className="sm:flex gap-2 w-full">
                                 <div className="flex flex-col pt-3">
-                                    <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Name</label>
+                                    <label htmlFor="name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Name</label>
                                     <input
                                         onChange={inputCon}
                                         name="name"
                                         value={fromdata.name}
                                         type="name"
+                                        id="name"
+                                        autoComplete="off"
                                         className="font-Exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 w-full sm:w-[233px]  outline-none h-[48px] border border-[#13120033]"
                                     />
                                     {Fromerror.name && (
@@ -86,12 +88,14 @@ export default function Contactus() {
                                     )}
                                 </div>
                                 <div className="sm:flex flex-col pt-3">
-                                    <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Last Name</label>
+                                    <label htmlFor="lastname"  className="font-Exo font-normal text-[16px] text-[#5A594D]">Last Name</label>
                                     <input
                                         onChange={inputCon}
                                         name="lastname"
+                                        id="lastname"
                                         value={fromdata.lastname}
-                                        type="name"
+                                        type="text"
+                                        autoComplete="off"
                                         className="font-Exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 outline-none w-full sm:w-[233px] h-[48px] border border-[#13120033]"
                                     />
                                     {Fromerror.lastname && (
@@ -102,12 +106,14 @@ export default function Contactus() {
                                 </div>
                             </div>
                             <div className="flex flex-col pt-3">
-                                <label htmlFor="Name" className="font-Exo 2 font-normal text-[16px] text-[#5A594D]">Email</label>
+                                <label htmlFor="email" className="font-Exo 2 font-normal text-[16px] text-[#5A594D]">Email</label>
                                 <input
                                     onChange={inputCon}
                                     name="email"
+                                    id="email"
                                     value={fromdata.email}
                                     type="email"
+                                    autoComplete="off"
                                     className="font-Exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2  w-full sm:w-[475px] outline-none h-[48px] border border-[#13120033]"
                                 />
                                 {Fromerror.email && (
@@ -117,10 +123,11 @@ export default function Contactus() {
                                 )}
                             </div>
                             <div className="flex flex-col pt-3">
-                                <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Message</label>
+                                <label htmlFor="meesage" className="font-Exo font-normal text-[16px] text-[#5A594D]">Message</label>
                                 <textarea
                                     onChange={inputCon}
                                     name="message"
+                                    id="meesage"
                                     value={fromdata.message}
                                     type="message"
                                     className="font-Exo mt-1 max-lg:h-[94px] h-[135px] p-2 rounded-[8px] font-normal text-[16px] resize-none text-[#5A594D] w-full sm:w-[475px] outline-none border border-[#13120033]"

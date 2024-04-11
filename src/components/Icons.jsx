@@ -40,12 +40,12 @@ export function Starsvg() {
             <path d="M5.60149 1.11942L4.23608 5.25408L0.223112 6.94403L4.35777 8.30944L6.04772 12.3224L7.41314 8.18774L11.4261 6.4978L7.29144 5.13238L5.60149 1.11942Z" fill="url(#paint1_linear_101_304)" />
             <defs>
                 <linearGradient id="paint0_linear_101_304" x1="6.11235" y1="0.224727" x2="69.1736" y2="54.8026" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A854E9" />
-                    <stop offset="1" stop-color="#4F91FC" />
+                    <stop stopColor="#A854E9" />
+                    <stop offset="1" stopColor="#4F91FC" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_101_304" x1="1.13135" y1="-2.39195" x2="37.2609" y2="26.4442" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#A854E9" />
-                    <stop offset="1" stop-color="#4F91FC" />
+                    <stop stopColor="#A854E9" />
+                    <stop offset="1" stopColor="#4F91FC" />
                 </linearGradient>
             </defs>
         </svg>
