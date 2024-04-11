@@ -23,22 +23,22 @@ export default function Myfooter() {
                                 <p className="font-normal text-[14px] md:text-[16px] font-Exo 2 text-white pt-5 lg:pt-7">Follow Us</p>
                                 <div className="flex items-center gap-2 pt-2">
                                     <span className=" hover:translate-y-[-6%] duration-[0.5s]">
-                                        <a href="https://www.facebook.com/" target="_blank" className="group ">
+                                        <a href="https://www.facebook.com/" target="_blank" aria-label="instagram" className="group">
                                             <Facebook/>
                                         </a>
                                     </span>
                                     <span className=" hover:translate-y-[-6%] duration-[0.5s]">
-                                        <a href="https://www.instagram.com/accounts/login/" target="_blank" className="group ">
+                                        <a href="https://www.instagram.com/accounts/login/" target="_blank" aria-label="instagram" className="group ">
                                             <Insta/>
                                         </a>
                                     </span>
                                     <span className=" hover:translate-y-[-6%] duration-[0.5s]">
-                                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank" className="group ">
+                                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" aria-label="instagram" target="_blank" className="group ">
                                            <Twitter/>
                                         </a>
                                     </span>
                                     <span className=" hover:translate-y-[-6%] duration-[0.5s]">
-                                        <a href="https://www.linkedin.com/pulse/road-map-front-end-developer-chandrashekhar-m" target="_blank" className="group ">
+                                        <a href="https://www.linkedin.com/pulse/road-map-front-end-developer-chandrashekhar-m" aria-label="instagram" aria-hidden="true" target="_blank" className="group ">
                                             <Linkedin/>
                                         </a>
                                     </span>
