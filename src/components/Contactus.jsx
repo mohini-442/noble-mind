@@ -63,7 +63,7 @@ export default function Contactus() {
     };
     return (
         <>
-            <div className="max-w-[1140px] px-3 mx-auto py-10 lg:py-24">
+            <div className="max-w-[1140px] 2xl:!max-w-[1320px] px-3 mx-auto py-10 lg:py-24" id="contactus">
                 <div className="flex flex-row flex-wrap">
                     <div className="lg:w-1/2 mx-auto lg:mx-0 px-3" data-aos="fade-right">
                         <h2 className=" font-Outfit font-semibold text-[32px] md:text-[48px] text-center lg:text-start leading-[37px]">Contact <span className="font-light"> Us </span></h2>
@@ -72,7 +72,6 @@ export default function Contactus() {
                             <div className="sm:flex gap-2 w-full">
                                 <div className="flex flex-col pt-3">
                                     <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Name</label>
-                                    {/* <input type="text" className="ff-exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 w-full sm:w-[233px]  outline-none h-[48px] border border-[#13120033]" /> */}
                                     <input
                                         onChange={inputCon}
                                         name="name"
@@ -88,7 +87,6 @@ export default function Contactus() {
                                 </div>
                                 <div className="sm:flex flex-col pt-3">
                                     <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Last Name</label>
-                                    {/* <input type="text" className="ff-exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2 outline-none w-full sm:w-[233px] h-[48px] border border-[#13120033]" /> */}
                                     <input
                                         onChange={inputCon}
                                         name="lastname"
@@ -105,7 +103,6 @@ export default function Contactus() {
                             </div>
                             <div className="flex flex-col pt-3">
                                 <label htmlFor="Name" className="font-Exo 2 font-normal text-[16px] text-[#5A594D]">Email</label>
-                                {/* <input type="text" className="ff-exo mt-1 rounded-[8px] font-normal text-[16px] text-[#5A594D] p-2  w-full sm:w-[475px] outline-none h-[48px] border border-[#13120033]" /> */}
                                 <input
                                     onChange={inputCon}
                                     name="email"
@@ -121,7 +118,6 @@ export default function Contactus() {
                             </div>
                             <div className="flex flex-col pt-3">
                                 <label htmlFor="Name" className="font-Exo font-normal text-[16px] text-[#5A594D]">Message</label>
-                                {/* <textarea name="" id="" cols="30" rows="10" className=" ff-exo mt-1 max-lg:h-[94px] h-[135px] p-2 rounded-[8px] font-normal text-[16px] resize-none text-[#5A594D] w-full sm:w-[475px] outline-none border border-[#13120033]" ></textarea> */}
                                 <textarea
                                     onChange={inputCon}
                                     name="message"

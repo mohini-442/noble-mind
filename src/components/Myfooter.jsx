@@ -7,7 +7,7 @@ export default function Myfooter() {
     return (
         <>
             <div className="relative z-[2]" id="blog" >
-                <div className="max-w-[1140px] px-3 xl:mx-auto mx-2 sm:mx-5 bg-newsletter py-12 md:h-[318px] rounded-[20px] flex items-center justify-center flex-col translate-y-[29%] ">
+                <div className="max-w-[1140px] 2xl:max-w-[1320px] px-3 xl:mx-auto mx-2 sm:mx-5 bg-newsletter py-12 md:h-[318px] rounded-[20px] flex items-center justify-center flex-col translate-y-[29%] ">
                     <h2 className=" font-Outfit font-light text-[32px] md:text-[48px] text-[#FDFDFF] text-center leading-[33px]">Subscribe to our <span className="font-semibold"> Newsletter!</span></h2>
                     <p className="font-Exo 2 font-normal text-[14px] md:text-[16px] text-[#FDFDFF] pt-3 text-center">Be the first to get exclusive offers and the latest news.</p>
                     <form className="w-[314px] sm:w-[448px] p-2 sm:p-[10px_10px_10px_24px] bg-[#FFFFFF0D] border border-[#FDFDFF33] flex justify-between mt-4 md:mt-9 rounded-[6px]">
@@ -16,11 +16,11 @@ export default function Myfooter() {
                     </form>
                 </div>
                 <div className=" bg-footerbg bg-cover bg-no-repeat bg-center lg:bg-Size py-5">
-                    <div className="max-w-[1140px] mx-auto px-3 pt-28 md:pt-36 pb-16">
+                    <div className="max-w-[1140px] 2xl:max-w-[1320px] mx-auto px-3 pt-28 md:pt-36 pb-16">
                         <div className="flex flex-row flex-wrap">
-                            <div className="md:w-8/12 w-full">
+                            <div className="lg:w-9/12 w-full">
                                 <a href=""><Image src={logo} className="max-lg:w-[50%]" alt="logo" width={241.94} height={42} /></a>
-                                <p className="font-normal text-[14px] md:text-[16px] font-Exo 2 text-white pt-7">Follow Us</p>
+                                <p className="font-normal text-[14px] md:text-[16px] font-Exo 2 text-white pt-5 lg:pt-7">Follow Us</p>
                                 <div className="flex items-center gap-2 pt-2">
                                     <span className=" hover:translate-y-[-6%] duration-[0.5s]">
                                         <a href="https://www.facebook.com/" target="_blank" className="group ">
@@ -44,7 +44,7 @@ export default function Myfooter() {
                                     </span>
                                 </div>
                             </div>
-                            <div className="md:w-4/12 w-full pt-10 md:pt-0">
+                            <div className="lg:w-3/12 w-full pt-8 lg:pt-0">
                                 <div className="flex flex-row flex-wrap">
                                     <div className="w-1/2">
                                         <ul>

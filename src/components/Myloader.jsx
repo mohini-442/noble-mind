@@ -6,12 +6,11 @@ import Image from "next/image";
 export default function Myloader() {
     const [loder, setloader] = useState(true);
 
-
     useEffect(() => {
         setTimeout(() => {
             setloader(false);
             document.body.classList.remove("overflow-hidden")
-
+        
         }, 2000);
     }, []);
     return (
