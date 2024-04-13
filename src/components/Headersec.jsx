@@ -4,7 +4,7 @@ export default function Headersec() {
     return (
         <>
             <div id="home" className="flex-grow relative z-10 flex justify-center items-center py-24">
-                <div className="max-w-[1140px] 2xl:!max-w-[1320px] mx-auto px-3">
+                <div className="max-w-[1140px]  mx-auto px-3">
                     <div className="flex flex-wrap flex-row">
                         <div className="lg:w-7/12 flex justify-center flex-col">
                             <div className="flex items-center gap-1 mx-auto lg:mx-0" data-aos="zoom-y-out" data-aos-delay="2500">

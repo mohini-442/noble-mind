@@ -28,7 +28,7 @@ export default function Myfaq() {
     return (
         <>
             <div className="relative z-[2]" id="faq">
-                <div className="max-w-[774px] 2xl:max-w-[850px] mx-auto px-3 pt-8 lg:pt-16 lg:pb-20">
+                <div className="max-w-[774px] mx-auto px-3 pt-8 lg:pt-16 lg:pb-20">
                     <div >
                         <h2 className=" text-black font-Outfit font-light md:text-[48px] text-[32px] text-center leading-[38px] " data-aos="fade-left">
                             Frequently <span className="font-semibold"> Asked Questions</span>

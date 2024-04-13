@@ -19,7 +19,6 @@ module.exports = {
         'Exo': ' "Exo 2", sans-serif',
         'Outfit': '"Outfit", sans-serif',
         'Montserrat': '"Montserrat", sans-serif',
-
       }
     },
   },

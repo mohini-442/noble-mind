@@ -4,17 +4,10 @@
 @tailwind utilities;
 
 
-.ff-exo {
-  font-family: "Exo 2", sans-serif;
+*{
+  scroll-behavior: smooth !important;
 }
 
-.ff-outfit {
-  font-family: "Outfit", sans-serif;
-}
-
-.ff-mont {
-  font-family: "Montserrat", sans-serif;
-}
 
 .gradient-1 {
   background: linear-gradient(130.88deg, #A854E9 -9.14%, #4F91FC 283.16%);

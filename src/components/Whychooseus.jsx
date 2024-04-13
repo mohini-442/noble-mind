@@ -81,7 +81,7 @@ export default function Whychooseus() {
     return (
         <>
             <div className="relative z-[2] overflow-hidden">
-                <div className="max-w-[1140px] 2xl:!max-w-[1320px] px-3 mx-auto pt-2 lg:py-12" id="whychooseus">
+                <div className="max-w-[1140px]  px-3 mx-auto pt-2 lg:py-12" id="whychooseus">
                     <div className="flex items-center justify-center gap-1 pt-3" data-aos="fade-left">
                        <Starsvg/>
                         <p className="font-normal text-[16px] font-Exo 2 text-[#131200]" data-aos="fade-left">Why Choose Us</p>
@@ -90,7 +90,7 @@ export default function Whychooseus() {
                     <div className=' py-lg-5 py-2' data-aos="fade-left">
                         <Slider {...settings}> {cards}</Slider>
                     </div>
-                    <Image src={chooseus} alt="chooseus" className="md:pt-12 pt-9 max-md:h-[300px] 2xl:!w-[1320px]" data-aos="fade-up" width={1140} height={527} />
+                    <Image src={chooseus} alt="chooseus" className="md:pt-12 pt-9 max-md:h-[300px] " data-aos="fade-up" width={1140} height={527} />
                 </div>
                 <Image src={ellipse} alt="ellipse" width={70} height={95} className="absolute bottom-[8%] right-[1%] z-[-1] hidden md:block " />
                 <Image src={ellipse} alt="ellipse" width={70} height={95} className="absolute top-[9%] left-[2%] z-[-1] hidden md:block " />

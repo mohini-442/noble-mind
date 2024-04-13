@@ -63,7 +63,7 @@ export default function Contactus() {
     };
     return (
         <>
-            <div className="max-w-[1140px] 2xl:!max-w-[1320px] px-3 mx-auto py-10 lg:py-24" id="contactus">
+            <div className="max-w-[1140px] px-3 mx-auto py-10 lg:py-24" id="contactus">
                 <div className="flex flex-row flex-wrap">
                     <div className="lg:w-1/2 mx-auto lg:mx-0 px-3" data-aos="fade-right">
                         <h2 className=" font-Outfit font-semibold text-[32px] md:text-[48px] text-center lg:text-start leading-[37px]">Contact <span className="font-light"> Us </span></h2>
@@ -143,7 +143,7 @@ export default function Contactus() {
                   
                     </div>
                     <div className="lg:w-1/2 px-3 sm:mx-auto pt-10 lg:pt-0 " data-aos="fade-left">
-                        <Image src={contactus} alt="contactus" height={692} width={598} />
+                        <Image src={contactus} alt="contactus" height={720} width={598} />
                     </div>
                 </div>
             </div>

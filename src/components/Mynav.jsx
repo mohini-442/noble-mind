@@ -13,7 +13,7 @@ export default function Mynav() {
     return (
         <>
             <div>
-                <div className="max-w-[1140px] 2xl:!max-w-[1320px] mx-auto pt-[19px] px-3">
+                <div className="max-w-[1140px] mx-auto pt-[19px] px-3">
                     <div className=" flex justify-between items-center ">
                         <a href=""><Image src={logo} className="max-lg:w-[70%] relative z-10" alt="logo" height={38.43} width={221.86} /></a>
                         <div className="flex gap-[136px]">

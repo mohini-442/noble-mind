@@ -8,12 +8,12 @@ export default function Aboutus() {
 return (
     <>
         <div className="relative z-[2] lg:pt-5 pb-5" id="aboutus">
-            <div className="max-w-[1140px] 2xl:!max-w-[1320px] px-5 mx-auto py-4 lg:py-24">
+            <div className="max-w-[1140px]  px-5 mx-auto py-4 lg:py-24">
                 <div className="flex lg:flex-row flex-col-reverse flex-wrap -mx-3">
                     <div className="lg:w-1/2 flex  justify-center lg:justify-start 2xl:justify-center mx-auto pt-5 lg:pt-0" data-aos="fade-right">
-                        <Image src={aboutus} alt="logo" className="h-auto w-auto" height={567} width={514} />
+                        <Image src={aboutus} alt="logo" height={567} width={514} />
                     </div>
-                    <div className="lg:w-1/2 lg:ps-4 2xl:ps-0 flex items-center lg:items-start flex-col ">
+                    <div className="lg:w-1/2 lg:ps-5 flex items-center lg:items-start flex-col ">
                         <div className="flex items-center gap-1 md:pt-3" data-aos="fade-right">
                             <Starsvg />
                             <p className="font-normal text-[16px] font-Exo text-[#131200]" data-aos="fade-right">About Us</p>
